@@ -5,10 +5,11 @@ raw_data|stem|61748ab332576a3b|a4efc1a0182a7bdd|2c530c1562a7fbd1|-1101284392||t2
 cleaning_log|stem|b54e0d461b3accf7|22dcc704319f3754|2c530c1562a7fbd1|-106817877||t20264.3598549015s|s17995b|17995|qs|local|vector|||0.001||
 clean_data|stem|7360ee995ade1568|028eb6e330c8dbb6|3d033540e6bfaac2|-259385813||t20264.3598601214s|s121067b|121067|qs|local|vector|||0.06||
 review|stem|0ec8e4995471abed|a0e9a9473b652552|3d033540e6bfaac2|-296522677||t20264.3598602912s|s102b|102|qs|local|vector|||0.007||
-save_clean_data|function|392bd9b4e45a866f
-validate|function|4c10747a62839438
-.Random.seed|object|c576ba402c707c86
-save_agent|function|1ec6437cc5ee78c5
 validation_agent|stem|ffa6ce8a1f3e10c8|34bda2dadb5af1d9|abcb0f8428a62175|-2130002685||t20264.360649119s|s423383b|423383|qs|local|vector|||0.309||
 validation_output|stem|4cbe80896593cdc6|00e4888835f4d390|85e9db5dd11f55b9|1224436803|outputs/agent.html|t20264.3606514106s|s29649b|29649|file|local|vector|||0.17||
-validation_agent_clean|stem||fea12cbf4cddcea1|cb3b2684210b95c2|41801293||t20264.3598661728s||0|qs|local|vector|||0.296||Exceedance of failed test units where values in `uuid` should have been NULL. The `col_vals_null()` validation failed beyond the absolute threshold level (1).  failure level (31) >= failure threshold (1)
+save_clean_data|function|392bd9b4e45a866f
+validate|function|4c10747a62839438
+.Random.seed|object|727b3c10c5e508af
+save_agent|function|1ec6437cc5ee78c5
+validation_agent_clean|stem||fea12cbf4cddcea1|cb3b2684210b95c2|41801293||t20264.3598661728s||0|qs|local|vector|||0.354||Exceedance of failed test units where values in `uuid` should have been NULL. The `col_vals_null()` validation failed beyond the absolute threshold level (1).  failure level (31) >= failure threshold (1)
+output_clean_data|stem|b2a493362ce0aa92|47c6ae0d03e0729a|889133fad3876019|-1647757315|outputs/clean_data.parquet|t20264.5648595537s|s233594b|233594|file|local|vector|||0.214||

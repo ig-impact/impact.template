@@ -4,7 +4,8 @@ library(cleaningtools)
 
 tar_option_set(
   packages = c("tibble"),
-  format = "qs"
+  format = "qs",
+  error = "continue"
 )
 
 
