@@ -10,7 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Ensure directories
-        run: mkdir -p outputs _targets
+        run: |
+          mkdir -p outputs _targets
+          chmod -R 777 outputs _targets
       - name: Build Docker image
         run: docker build -t pipeline .
       - name: Run pipeline
