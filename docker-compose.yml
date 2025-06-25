@@ -1,0 +1,11 @@
+services:
+  pipeline:
+    build: .
+    container_name: r_targets_pipeline
+    restart: "no"
+    working_dir: /app
+    volumes:
+      - ./outputs:/app/outputs
+      - ./_targets:/app/_targets
+    command: ["Rscript", "run_pipeline.R"]
+
